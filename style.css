@@ -79,7 +79,7 @@ section {
 #card {
     width: 350px;
     text-align: center;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .card-top{
@@ -87,9 +87,59 @@ section {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-size: cover;
-    height: 113px;
+    height: 123px;
 }
 
+
+.profile-picture img{
+    border-radius: 50%;
+    /* border: 5px; */
+    padding: 5px;
+    background: white;
+    height: 90px;
+    width: 90px;
+    overflow: hidden;
+    position: relative;
+    top: -50px;
+}
+
+#contact-info{
+    /* background-color: red; */
+    position: relative;
+    bottom: 40px;
+}
+#contact-info h2{
+    margin: 8px;
+}
+
+hr {
+    position: relative;
+    bottom: 25px;
+}
+
+.analytics-card-footer{
+    position: relative;
+    bottom: 30px;
+}
+
+.item{
+    display: inline-block; /* This is to make the three side by side*/
+    margin: 22px;
+}
+
+.age{
+    font-size: 18px;
+    padding-left: 10px;
+}
+.city{
+    font-size: 14px;
+}
+.meta{
+    font-size: 10px;
+}
+.name, .value{
+    font-size: 18px;
+}
 .age, .city, .meta{
     color:hsl(0, 0%, 59%);
 }
